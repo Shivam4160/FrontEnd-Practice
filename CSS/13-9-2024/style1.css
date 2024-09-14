@@ -15,7 +15,7 @@
 /* Selector Priority  */
 /* tag , class , id , child , combinator */
 
-div{
+/* div{
     height: 500px;
 }
 
@@ -27,13 +27,14 @@ div{
 
 #content{
     width: 500px;
-    /* height: 300px; */
+    /* height: 300px; 
 }
 
 div:nth-child(1){
     height: 500px;
+    width: 500px;
 }
-
+ */
 
 /* CSS Inheritance Rule */
 
@@ -74,6 +75,7 @@ div:nth-child(1){
 
 /* CSS !important Rule */
 
+/* 
 .box #innercontent{
     height: 100px;
     width: 100px;
@@ -92,4 +94,24 @@ div:nth-child(1){
 
 #innercontent{
     background-color: tomato !important;
+} */
+
+/* Mine */
+
+/* .innerbox{
+    background-color: aqua;
+    background-image: url(../assets/forest-tent.jpg);
+    width: 1000px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    color: rgb(255, 0, 0);
+     
+    
+} */
+
+div:nth-child(1){
+    height: 500px;
+    width: 500px;
 }
