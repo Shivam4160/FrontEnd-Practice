@@ -21,7 +21,7 @@
     height: 600px;
     width: 600px;
     background-color: red;
-    background-image: url(./assets/image2.jpg);
+    background-image: url(../assets/image2.jpg);
     background-size: cover;
     background-repeat:round;
     background-position:right;
@@ -29,7 +29,7 @@
     background-clip:border-box;
     padding: 100px;
     border:100px solid transparent;
-    background:url(./assets/image1.jpg) no-repeat fixed;
+    background:url(../assets/image1.jpg) no-repeat fixed;
     background:radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 16%, rgba(0,212,255,1) 68%);
 }
 
