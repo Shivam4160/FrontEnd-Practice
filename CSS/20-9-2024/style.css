@@ -1,6 +1,6 @@
 /* Css Color Properties */
 
-.color{
+/* .color{
     height: 300px;
     width: 300px;
     background-color: rgb(0 , 0 , 0);
@@ -13,23 +13,23 @@
     background-color: rgba(255,  0 , 0 , 1);
     background-color: #ff8945; 
     background-color: hsl(240, 0% , 0%);
-}
+} */
 
 /* https://htmlcolorcodes.com/ */
 
 .back{
     height: 600px;
     width: 600px;
-    /* background-color: red; */
-    /* background-image: url(./asset/image/pexels-oliver-dohrn.jpg); */
-    /* background-size: cover; */
-    /* background-repeat:round; */
-    /* background-position:right; */
-    /* background-attachment: fixed; */
-    /* background-clip:border-box; */
-    /* padding: 100px;
-    border:100px solid transparent; */
-    /* background:url(./asset/image/pexels-oliver-dohrn.jpg) no-repeat fixed; */
+    background-color: red;
+    background-image: url(./assets/image2.jpg);
+    background-size: cover;
+    background-repeat:round;
+    background-position:right;
+    background-attachment: fixed;
+    background-clip:border-box;
+    padding: 100px;
+    border:100px solid transparent;
+    background:url(./assets/image1.jpg) no-repeat fixed;
     background:radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 16%, rgba(0,212,255,1) 68%);
 }
 
