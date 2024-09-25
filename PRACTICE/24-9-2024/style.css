@@ -1,0 +1,19 @@
+.MegaOne{
+    margin-left: 137px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.top-right{
+    margin-left: 137px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    
+}
+.button-top-right{
+    list-style-type: none;
+    display: flex;
+    
+}
+
