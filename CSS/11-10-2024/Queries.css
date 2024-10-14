@@ -1,0 +1,70 @@
+/* Css Media Queries */
+
+/*
+max-width
+min-width
+width
+*/
+
+
+/* @media (max-width:1200px){
+    body{
+        background-color: orange;
+    }
+}
+
+@media (max-width:992px){
+    body{
+        background-color: blue;
+    }
+}
+
+@media (max-width:768px){
+    body{
+        background-color: green;
+    }
+}
+
+@media (max-width:576px){
+    body{
+        background-color: red;
+    }
+} */
+
+@media (min-width:576px){
+    body{
+        background-color: red;
+    }
+}
+
+@media (min-width:768px){
+    body{
+        background-color: green;
+    }
+}
+@media (min-width:992px){
+    body{
+        background-color: blue;
+    }
+}
+@media (min-width:1200px){
+    body{
+        background-color: orange;
+    }
+}
+
+
+/* Css Prefixes */
+
+/* 
+
+xs :  >=320px
+sm :  >=576px
+md :  >=768px
+lg :  >=992px
+xl :  >=1200px
+xxl:  >=1400px
+
+*/
+
+
