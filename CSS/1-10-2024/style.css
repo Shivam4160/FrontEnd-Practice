@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* Css Transform Properties */
+
+/* Css 2D Transform Properties */
+
+.translate{
+    height: 100px;
+    width: 100px;
+    background-color: purple;
+}
+
+.translate:hover{
+    transform: translate(900px , 200px);
+    transform: translate(900px , 200px);
+    transform: translateY(-200px);
+    transform: translateX(-200px);
+    transform: scaleX(2);
+    transform: scaleY(2);
+    transform: scale(2);
+    transform: scale(0.5);
+    transform: rotateX(45deg);
+    transform: rotateY(90deg);
+    transform: rotate(180deg);
+    transform: rotate(-180deg);
+    transform: skewX(45deg);
+    transform: skewY(45deg);
+    transform: skew(45deg ,  90deg); 
+    transform-origin: bottom right;
+    transition: 3s;
+}
+
+/* https://polypane.app/css-3d-transform-examples/ */
+
+
+/* Css Transition */
+
