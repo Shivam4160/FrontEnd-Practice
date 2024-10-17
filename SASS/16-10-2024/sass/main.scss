@@ -1,0 +1,12 @@
+$color-1:orange;
+$color-2:purple;
+
+body{
+    background-color: $color-1;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: $color-2;
+}
