@@ -1,0 +1,31 @@
+$h-1:100px;
+$h-2:200px;
+$h-3:300px;
+
+$w-1:100px;
+$w-2:200px;
+$w-3:300px;
+
+
+
+$bg_clr-1:red;
+$bg_clr-2:green;
+$bg_clr-3:blue;
+$bg_clr-4:violet;
+
+
+$clr-1:red;
+$clr-2:green;
+$clr-3:blue;
+$clr-4:violet;
+
+
+body{
+    margin: 0;
+}
+
+.box{
+    width: $w-1;
+    height: $h-1;
+    background-color: $bg_clr-4;
+}
