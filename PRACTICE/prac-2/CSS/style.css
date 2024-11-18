@@ -78,6 +78,6 @@
 
 
 .nav-btn:hover {
-    transform: translateY(-20px);
-    transition: 0.6s;
+    transform: translateY(-3px);
+    transition: 0.3s;
 }
