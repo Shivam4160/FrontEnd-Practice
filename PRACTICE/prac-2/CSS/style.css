@@ -7,6 +7,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    overflow: hidden;
 }
 
 
@@ -67,6 +68,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: 0.3s ease-in;
 
     a {
         text-decoration: none;
@@ -78,6 +80,16 @@
 
 
 .nav-btn:hover {
-    transform: translateY(-3px);
-    transition: 0.3s;
+    transform: translateY(-4px);
+    transition: 0.4s ease-out;
+}
+
+.page1{
+    width: 100%;
+    height: 90lvh;
+    background-image: url(../Assets/images/Page\ 1\ BG.jpeg);
+    background-size: cover;
+    margin: 0px 50px;
+
+    
 }
