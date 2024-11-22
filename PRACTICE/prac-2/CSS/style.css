@@ -7,20 +7,16 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    overflow: hidden;
 }
 
 
-.navbar {
-    width: 100%;
-    height: 106px;
-}
 
 
 
 .main-nav {
+    margin: 0px 70px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     padding: 5px 0px;
 
@@ -33,7 +29,7 @@
     width: 50%;
 
     .list-ul {
-        height: 106px;
+        height: 97px;
         list-style-type: none;
         display: flex;
         justify-content: space-between;
@@ -84,12 +80,11 @@
     transition: 0.4s ease-out;
 }
 
-.page1{
-    width: 100%;
+.page1 {
     height: 90lvh;
-    background-image: url(../Assets/images/Page\ 1\ BG.jpeg);
+    background-image: url(../Assets/images/Page-1-BG.jpeg);
     background-size: cover;
-    margin: 0px 50px;
-
-    
+    opacity: 0.5;
+    border-radius: 20px;
+    margin: 0px 60px;
 }
