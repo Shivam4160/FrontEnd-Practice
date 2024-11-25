@@ -206,7 +206,7 @@
   .secondpage {
     width: 100%;
     min-height: 100vh;
-    background-image: url(../images/asset\ 10.jpeg);
+    background-image: url(Assets/asset\ 10.jpeg);
     background-repeat: no-repeat;
     margin-top: 300px;
     padding: 100px 0;
@@ -299,7 +299,7 @@
   .fourthpage {
     width: 1519px;
     height: 522px;
-    background-image: url(../images/asset\ 11.jpeg);
+    background-image: url(Assets/asset\ 11.jpeg);
     background-repeat: no-repeat;
     position: sticky;
     top: 0;
@@ -378,11 +378,10 @@
   
   .img-top {
     position: absolute;
-    width: 235px;
-    height: 425px;
+    width: 0px;
+    height: 0px;
     background-color: #1f1f1f;
-    top: 3100px;
-    left: 595px;
+
     overflow: hidden;
   }
   
@@ -415,4 +414,4 @@
   }
   
   
-  /* media query  */  
+  
