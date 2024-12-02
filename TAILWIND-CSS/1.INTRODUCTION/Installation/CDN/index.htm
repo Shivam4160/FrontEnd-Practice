@@ -5,8 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CDN tailwindcss</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .main:hover .box{
+            translate: 100px;
+
+        }
+    </style>
 </head>
 <body>
-    <div class="w-96 h-96 border-2 mx-auto border-black bg-green-300">CDN tailwindcss</div>
+    <div class="main w-96 h-96 border-2 mx-auto border-black bg-green-300 sm:bg-violet-500 hover:bg-sky-500">
+        <div class="box w-36 m-auto h-36 bg-red-600"></div>
+    </div>
 </body>
 </html>
