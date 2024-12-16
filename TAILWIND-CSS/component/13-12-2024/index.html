@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tailwind Design</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+  <footer class="bg-white p-6 md:p-10 text-center border-t border-gray-200">
+    <div class="flex flex-col md:flex-row justify-around items-center md:items-start mb-6">
+      <div class="text-center md:text-left mb-4 md:mb-0">
+        <h3 class="font-semibold text-gray-800">Customer Service</h3>
+        <a href="mailto:info@robowolf.net" class="text-blue-500 hover:underline">info@robowolf.net</a>
+      </div>
+      <div class="text-center mb-4 md:mb-0">
+        <h3 class="font-semibold text-gray-800">Say Hello</h3>
+        <a href="mailto:hello@robowolf.net" class="text-blue-500 hover:underline">hello@robowolf.net</a>
+      </div>
+      <div class="text-center md:text-right">
+        <h3 class="font-semibold text-gray-800">Phone</h3>
+        <a href="tel:+79654041978" class="text-blue-500 hover:underline">+7 965-404-1978</a>
+      </div>
+    </div>
+
+    <div class="mb-6">
+      <h3 class="text-lg font-semibold text-gray-800 mb-4">Subscribe</h3>
+      <div class="flex justify-center items-center">
+        <input 
+          type="email" 
+          placeholder="Enter Your E-mail" 
+          class="border border-gray-300 p-2 rounded-l-md w-64 focus:outline-none focus:ring-2 focus:ring-blue-300"
+        />
+        <button class="bg-purple-500 text-white px-4 py-2 rounded-r-md hover:bg-purple-600">
+          Sign in
+        </button>
+      </div>
+    </div>
+
+    <div class="flex justify-center space-x-4 mb-6">
+      <div class="w-10 h-10 bg-gray-200 rounded-full flex items-center justify-center">
+        <i class="fa-brands fa-facebook-f"></i>
+    </div>
+      <div class="w-10 h-10 bg-gray-200 rounded-full flex items-center justify-center">
+        <i class="fa-brands fa-twitter"></i>
+    </div>
+      <div class="w-10 h-10 bg-gray-200 rounded-full flex items-center justify-center">
+        <i class="fa-brands fa-google"></i>
+    </div>
+    </div>
+
+    <p class="text-gray-500 text-sm">
+      Sitemap. Privacy © Robowolf, saint-Petersburg
+    </p>
+  </footer>
+
+  <br><br><br><br><br><hr><hr><hr><hr><hr>
+
+  <section class="p-6 md:p-12 ">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      
+      <div class="bg-white rounded-lg shadow-md overflow-hidden">
+        <img src="pexels-tr-n-chinh-587690133-20391484.jpg" alt="Reusable Elements" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="font-semibold text-gray-800">Reusable Elements</h3>
+          <p class="text-gray-500 text-sm mb-2">The Earth was small, light blue, and so touchingly alone.</p>
+          <div class="flex items-center text-gray-400 text-xs">
+            <span>🗓️ 12 May, 2017</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-lg shadow-md overflow-hidden">
+        <img src="pexels-tr-n-chinh-587690133-20391484.jpg" alt="Free Google Fonts" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="font-semibold text-gray-800">Free Google Fonts</h3>
+          <p class="text-gray-500 text-sm mb-2">The Earth was small, light blue, and so touchingly alone.</p>
+          <div class="flex items-center text-gray-400 text-xs">
+            <span>🗓️ 13 May, 2017</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-lg shadow-md overflow-hidden">
+        <img src="pexels-tr-n-chinh-587690133-20391484.jpg" alt="Responsive Symbols" class="w-full h-48 object-cover">
+<div class="p-4">
+          <h3 class="font-semibold text-gray-800">Responsive Symbols</h3>
+          <p class="text-gray-500 text-sm mb-2">The Earth was small, light blue, and so touchingly alone.</p>
+          <div class="flex items-center text-gray-400 text-xs">
+            <span>🗓️ 14 May, 2017</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+</body>
