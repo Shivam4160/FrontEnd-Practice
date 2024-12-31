@@ -43,13 +43,55 @@
 
 
 {
-    let fibo=10;
-    let fibbonaci;
+    let fibo=10
+    let fibbonaci=0;
+    let num1=0 , num2=1
 
     for (let i = 1; i <=fibo; i++) {
-        fectorial *= i;
+        fibbonaci=num1;
+        num1= num2;
+        num2= num1 + fibbonaci;
+        console.log(fibbonaci+",");
     }
 
-    console.log(fibbonaci);
+
+}
+
+
+
+// new 
+
+
+{
+
+    var customConsole = {
+        // Store a reference to your backing value
+        tempValue: '',
+        // Always write out the most recent value
+        log: function(msg) {
+          this.tempValue += msg;
+          console.clear();
+          console.log(this.tempValue);
+        },
+        // A clear method to clear the backing console
+        clear: function() {
+          this.tempValue = '';
+          console.clear();
+        }
+      }
+
+
+    let fibo=10
+    let fibbonaci=0;
+    let num1=0 , num2=1
+
+    for (let i = 1; i <=fibo; i++) {
+        fibbonaci=num1;
+        num1= num2;
+        num2= num1 + fibbonaci;
+        customConsole.log(fibbonaci+",");
+    }
+    
+   
 
 }
