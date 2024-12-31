@@ -48,6 +48,7 @@
 
     for (let i = 1; i <=fibo; i++) {
         fectorial *= i;
+        
     }
 
     console.log(fibbonaci);
