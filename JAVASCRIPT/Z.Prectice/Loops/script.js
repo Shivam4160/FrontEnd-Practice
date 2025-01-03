@@ -155,5 +155,4 @@
     }
     
     console.log(largest); 
-      
 }
