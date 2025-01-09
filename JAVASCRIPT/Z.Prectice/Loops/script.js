@@ -157,3 +157,20 @@
     
     console.log(largest); 
 }
+
+// Write a program that counts the number of vowels in a given string
+
+
+{
+   let string = "this is string" 
+   let num=0
+   
+   for (let i = 0; i < string.length; i++) {
+    if (string[i]== 'a' ,'e','i','o','u') {
+        num++
+    }
+   }
+   console.log(num);
+   
+   
+}
