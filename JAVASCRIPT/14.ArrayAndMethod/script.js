@@ -753,7 +753,7 @@
     let page = 1
     let first_page = 5
     let next_to_prev = 0
-    let number_is_4 = 0
+    let page_is_4 = 0
 
     function handleNext() {
 
@@ -783,9 +783,9 @@
         document.getElementById('demo-1').innerHTML = arrays.slice(firstindex, lastindex).map((item) => `${item.name}`)
 
         page++
-        number_is_4 = 0
+        page_is_4 = 0
         if (page > 3) {
-            number_is_4 = page
+            page_is_4 = page
             page = 1
         }
 
@@ -796,9 +796,7 @@
         
         if (next_to_prev != 0) {
             next_to_prev--
-            console.log(page);
-            page--
-            
+            page--            
         }
 
         if (first_page == 5) {
@@ -806,9 +804,9 @@
             return;
         }
 
-        if (number_is_4 == 4) {
-            page = number_is_4 - 1
-            number_is_4 = 0
+        if (page_is_4 == 4) {
+            page = page_is_4 - 1
+            page_is_4 = 0
         }
 
         page--
