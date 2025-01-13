@@ -64,9 +64,10 @@
 }
 
 // 6) JavaScript Program to Solve Quadratic Equation
+// x = (-b ± √(b^2 - 4ac)) / 2a
 
 {
-// EQ = X^2 -3X + 2
+    // EQ = X^2 -3X + 2
     let a = 1;
     let b = -3;
     let c = 2;
@@ -87,8 +88,8 @@
         let realPart = -b / (2 * a);
         let imaginaryPart = Math.sqrt(-discriminant) / (2 * a);
         console.log("Roots are complex and different.");
-        console.log("Root 1:", realPart, "+", imaginaryPart, "i");
-        console.log("Root 2:", realPart, "-", imaginaryPart, "i");
+        console.log("Root 1:", realPart, "+", imaginaryPart,"*", "i");
+        console.log("Root 2:", realPart, "-", imaginaryPart,"*", "i");
     }
 
 
@@ -105,7 +106,26 @@
 }
 
 // 8) Javascript Program to Convert Celsius to Fahrenheit
+
+{
+
+    let celsius = 25;
+    let fahrenheit = (celsius * 9 / 5) + 32;
+
+    console.log(celsius + "°C is equal to " + fahrenheit + "°F");
+
+}
+
 // 9) Javascript Program to Generate a Random Number
+
+{
+    let digits = prompt("How many digits do you want?:");
+    let randomNumber = Math.random();
+    console.log(randomNumber);
+
+}
+
+
 // 10)Javascript Program to Check if a number is Positive, Negative, or Zero
 // 11)Javascript Program to Check if a Number is Odd or Even
 // 12)JavaScript Program to Find the Largest Among Three Numbers
