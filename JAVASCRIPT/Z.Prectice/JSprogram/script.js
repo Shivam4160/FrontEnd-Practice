@@ -121,13 +121,39 @@
 {
     let digits = prompt("How many digits do you want?:");
     let randomNumber = Math.random();
-    console.log(randomNumber);
+    console.log(randomNumber*Math.pow(10, digits));
 
 }
 
 
 // 10)Javascript Program to Check if a number is Positive, Negative, or Zero
+
+{
+    let num = 1;
+    if (num > 0) {
+        console.log("Number is positive");
+    }
+    else if (num < 0) {
+        console.log("Number is negative");
+
+    }
+    else {
+        console.log("Number is Zero");
+    }
+}
+
 // 11)Javascript Program to Check if a Number is Odd or Even
+
+{
+    let num = 1;
+    if (num%2== 0) {
+        console.log("Number is even");
+    }
+    else {
+        console.log("Number is odd");
+    }
+}
+
 // 12)JavaScript Program to Find the Largest Among Three Numbers
 // 13)JavaScript Program to Check Prime Number
 // 14)JavaScript Program to Print All Prime Numbers in an Interval
