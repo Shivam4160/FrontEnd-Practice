@@ -88,8 +88,8 @@
         let realPart = -b / (2 * a);
         let imaginaryPart = Math.sqrt(-discriminant) / (2 * a);
         console.log("Roots are complex and different.");
-        console.log("Root 1:", realPart, "+", imaginaryPart,"*", "i");
-        console.log("Root 2:", realPart, "-", imaginaryPart,"*", "i");
+        console.log("Root 1:", realPart, "+", imaginaryPart, "*", "i");
+        console.log("Root 2:", realPart, "-", imaginaryPart, "*", "i");
     }
 
 
@@ -121,7 +121,7 @@
 {
     let digits = prompt("How many digits do you want?:");
     let randomNumber = Math.random();
-    console.log(randomNumber*Math.pow(10, digits));
+    console.log(randomNumber * Math.pow(10, digits));
 
 }
 
@@ -146,7 +146,7 @@
 
 {
     let num = 1;
-    if (num%2== 0) {
+    if (num % 2 == 0) {
         console.log("Number is even");
     }
     else {
@@ -155,8 +155,79 @@
 }
 
 // 12)JavaScript Program to Find the Largest Among Three Numbers
+
+{
+    let a = 10;
+    let b = 20;
+    let c = 30;
+
+    if (a > b && a > c) {
+        console.log("A is larger than B & C");
+    }
+    else if (b > a && b > c) {
+        console.log("B is larger than A & C");
+    }
+    else {
+        console.log("C is larger than B & A");
+    }
+}
+
 // 13)JavaScript Program to Check Prime Number
+
+{
+    let number = 6545
+    let isPrime = true
+    if (number === 1) {
+        console.log("1 is neither prime nor divisible number.");
+    }
+    else if (number > 1) {
+        for (let i = 2; i <= number / 2; i++) {
+            if (number % i == 0) {
+                isPrime = false;
+                break;
+            }
+        }
+
+        if (isPrime) {
+            console.log(`${number} is a prime number`);
+        } else {
+            console.log(`${number} is not a prime number`);
+        }
+    }
+    else {
+        console.log(`${number} is not a prime number.`);
+    }
+}
+
 // 14)JavaScript Program to Print All Prime Numbers in an Interval
+
+
+{
+    let number = 123
+    let isPrime = true
+    if(number === 1 ) {
+        console.log("1 is neither prime nor divisible number.");
+    }
+    else if (number > 1) {
+        for (let i=2 ; i <= number/2 ; i++ ) {
+            if (number % i == 0 ) {
+                isPrime = false;
+                break;
+                }
+        }
+    
+        if (isPrime) {
+                console.log(`${number} is a prime number`);
+        } else {
+            console.log(`${number} is a not prime number`);
+    
+        }
+    }
+    else {
+        console.log("The number is not a prime number.");
+    }
+}
+
 // 15)JavaScript Program to Find the Factorial of a Number
 // 16)JavaScript Program to Display the Multiplication Table
 // 17)JavaScript Program to Print the Fibonacci Sequence
