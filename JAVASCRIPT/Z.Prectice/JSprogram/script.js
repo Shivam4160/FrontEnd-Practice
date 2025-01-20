@@ -119,7 +119,7 @@
 // 9) Javascript Program to Generate a Random Number
 
 {
-    let digits = prompt("How many digits do you want?:");
+    let digits = parseInt(prompt("How many digits do you want?:"));
     let randomNumber = Math.random();
     console.log(randomNumber * Math.pow(10, digits));
 
@@ -201,39 +201,170 @@
 
 // 14)JavaScript Program to Print All Prime Numbers in an Interval
 
-
 {
-    let number = 123
-    let isPrime = true
-    if(number === 1 ) {
-        console.log("1 is neither prime nor divisible number.");
-    }
-    else if (number > 1) {
-        for (let i=2 ; i <= number/2 ; i++ ) {
-            if (number % i == 0 ) {
+    let startInterval = parseInt(prompt("Enter starting range:"));
+    let endInterval = parseInt(prompt("Enter ending range:"));
+
+    for (let i = startInterval; i <= endInterval; i++) {
+        let isPrime = true;
+        if (i <= 1) {
+            isPrime = false;
+        }
+        for (let j = 2; j <= Math.sqrt(i); j++) {
+            if (i % j === 0) {
                 isPrime = false;
                 break;
-                }
+            }
         }
-    
-        if (isPrime) {
-                console.log(`${number} is a prime number`);
-        } else {
-            console.log(`${number} is a not prime number`);
-    
-        }
-    }
-    else {
-        console.log("The number is not a prime number.");
+        if (isPrime) console.log(i);
     }
 }
 
 // 15)JavaScript Program to Find the Factorial of a Number
+
+{
+    let fect = parseInt(prompt("Enter a number for factorial"));
+    let fectorial = 1;
+
+    for (let i = fect; i >= 1; i--) {
+        fectorial *= i;
+    }
+
+    console.log(fectorial);
+
+}
+
 // 16)JavaScript Program to Display the Multiplication Table
+
+{
+    let table = 2;
+    console.log("table of ", table, ":\n\n");
+
+    for (let i = 1; i <= 10; i++) {
+
+        console.log(table + " X " + i + " = " + table * i);
+
+    }
+}
+
 // 17)JavaScript Program to Print the Fibonacci Sequence
+
+{
+    let fibo = parseInt(prompt("Enter a total number to display fibonacci series:"));
+    let fibbonaci = 0;
+    let num1 = 0, num2 = 1;
+
+    for (let i = 1; i <= fibo; i++) {
+        fibbonaci = num1;
+        num1 = num2;
+        num2 = num1 + fibbonaci;
+        console.log(fibbonaci + ",");
+    }
+
+}
+
 // 18)JavaScript Program to Check Armstrong Number
+{
+    let num = 371;
+    let originalNum = num;
+    let n = 0, result = 0;
+
+    while (originalNum != 0) {
+        originalNum = Math.floor(originalNum / 10);
+        n++;
+    }
+
+    originalNum = num;
+
+    while (originalNum != 0) {
+        let remainder = originalNum % 10;
+        let power = Math.pow(remainder, n);
+        result = result + power;
+        originalNum = Math.floor(originalNum / 10);
+    }
+
+    if (result == num)
+        console.log(num + " is an Armstrong number");
+    else
+        console.log(num + " is not an Armstrong number");
+}
+
 // 19)JavaScript Program to Find Armstrong Number in an Interval
+
+{
+
+    let start = 1;
+    let end = 1000;
+
+    for (let i = start; i <= end; i++) {
+        let originalNum = i;
+        let n = 0, result = 0;
+
+        while (originalNum != 0) {
+            originalNum = Math.floor(originalNum / 10);
+            n++;
+        }
+
+        originalNum = i;
+
+        while (originalNum != 0) {
+            let remainder = originalNum % 10;
+            let power = Math.pow(remainder, n);
+            result = result + power;
+            originalNum = Math.floor(originalNum / 10);
+        }
+
+        if (result == i)
+            console.log(i + " is an Armstrong number");
+    }
+
+}
+
 // 20)JavaScript Program to Make a Simple Calculator
 // 21)JavaScript Program to Find the Sum of Natural Numbers
+
+{
+
+    let n = 100;
+    let sum = 0;
+
+    for (let i = 1; i <= n; i++) {
+        sum += i;
+    }
+
+    console.log("Sum of first " + n + " natural numbers is: " + sum);
+
+}
+
 // 22)JavaScript Program to Check if the Numbers Have Same Last Digit
+
+{
+
+    let num1 = 123;
+    let num2 = 223;
+
+    if (num1 % 10 === num2 % 10) {
+        console.log("Both numbers have the same last digit.");
+    } else {
+        console.log("Both numbers do not have the same last digit.");
+    }
+
+}
+
 // 23)JavaScript Program to Find HCF or GCD
+
+{
+
+    let num1 = 48;
+    let num2 = 18;
+    let hcf = 0;
+
+    for (let i = 1; i <= num1 && i <= num2; i++) {
+        if (num1 % i === 0 && num2 % i === 0) {
+            hcf = i;
+        }
+    }
+
+    console.log("HCF of " + num1 + " and " + num2 + " is: " + hcf);
+
+}

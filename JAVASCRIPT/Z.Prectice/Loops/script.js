@@ -1,9 +1,9 @@
 // Write a program that calculates the sum of all numbers from 1 to 100
 {
-        let sum=0;
+    let sum = 0;
 
     for (let i = 0; i <= 100; i++) {
-        sum+=i;
+        sum += i;
     }
 
     console.log(sum);
@@ -15,24 +15,24 @@
 
 
 {
-    let table=2;
-    console.log("table of ",table,":\n\n");
-    
+    let table = 2;
+    console.log("table of ", table, ":\n\n");
+
     for (let i = 1; i <= 10; i++) {
-        
-        console.log(table + " X "+ i + " = " + table*i);
-        
+
+        console.log(table + " X " + i + " = " + table * i);
+
     }
 }
 
 // Write a program that calculates the factorial of a given number (for example, 5!)
 
 {
-    let fect=5;
-    let fectorial=1;
+    let fect = 5;
+    let fectorial = 1;
 
     for (let i = fect; i >= 1; i--) {
-        fectorial *=i;
+        fectorial *= i;
     }
 
     console.log(fectorial);
@@ -43,15 +43,15 @@
 
 
 {
-    let fibo=10
-    let fibbonaci=0;
-    let num1=0 , num2=1
+    let fibo = 10
+    let fibbonaci = 0;
+    let num1 = 0, num2 = 1
 
-    for (let i = 1; i <=fibo; i++) {
-        fibbonaci=num1;
-        num1= num2;
-        num2= num1 + fibbonaci;
-        console.log(fibbonaci+",");
+    for (let i = 1; i <= fibo; i++) {
+        fibbonaci = num1;
+        num1 = num2;
+        num2 = num1 + fibbonaci;
+        console.log(fibbonaci + ",");
     }
 
 
@@ -91,8 +91,8 @@
 //         num2= num1 + fibbonaci;
 //         customConsole.log(fibbonaci+",");
 //     }
-    
-   
+
+
 
 // }
 
@@ -108,14 +108,14 @@
 
     const string = "Hello, world!";
     let reversedStr = '';
-    
+
     for (let i = string.length - 1; i >= 0; i--) {
         reversedStr += string[i];
     }
-    
+
     console.log(reversedStr);
 }
- 
+
 
 
 
@@ -124,14 +124,14 @@
 
 {
 
-    const numbers = [1, 2, 3, 4, 5 , 6 , 7 , 8 , 9];
-    
+    const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
     let sum = 0;
     for (let i = 0; i < numbers.length; i++) {
-      sum += numbers[i];
+        sum += numbers[i];
     }
     console.log(sum);
-      
+
 
 }
 
@@ -143,34 +143,34 @@
 
 
 {
-    
-    
-    const numbers = [3, 5, 7, 2, 8, 16 , 12];
-    let largest =numbers[0];
+
+
+    const numbers = [3, 5, 7, 2, 8, 16, 12];
+    let largest = numbers[0];
 
     for (let i = 1; i < numbers.length; i++) {
-      if (numbers[i] > largest) {
-        largest = numbers[i];
-      }
+        if (numbers[i] > largest) {
+            largest = numbers[i];
+        }
     }
-    
-    
-    console.log(largest); 
+
+
+    console.log(largest);
 }
 
 // Write a program that counts the number of vowels in a given string
 
 
 {
-   let string = "this is string" 
-   let num=0
-   
-   for (let i = 0; i < string.length; i++) {
-    if (string[i]== 'a' ,'e','i','o','u') {
-        num++
+    let string = "this is string"
+    let num = 0
+
+    for (let i = 0; i < string.length; i++) {
+        if (string[i] == 'a', 'e', 'i', 'o', 'u') {
+            num++
+        }
     }
-   }
-   console.log(num);
-   
-   
+    console.log(num);
+
+
 }
