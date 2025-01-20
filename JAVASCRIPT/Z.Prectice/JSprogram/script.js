@@ -446,7 +446,7 @@
         }
     }
 
-    let n = 10; // change this value to calculate sum up to different number
+    let n = 10;
     console.log("Sum of natural numbers up to", n, "is:", sum(n));
 
 }
