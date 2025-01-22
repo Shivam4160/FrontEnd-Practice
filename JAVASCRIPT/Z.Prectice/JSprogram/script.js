@@ -715,26 +715,26 @@
 
 // // 31)JavaScript Program to Convert Decimal to Binary
 
-{
+// {
 
-    console.log("JavaScript Program to Convert Decimal to Binary\n\n");
+//     console.log("JavaScript Program to Convert Decimal to Binary\n\n");
 
-    let Decimal = 8;
-    let arr = [];
-    let temp= Decimal;
-    for (let i = 0; i <= Decimal; i++) {
-        if (temp==1 || Decimal==1) {
-            arr[i]=1;
-            break;
-        }
-        arr[i] = temp % 2;
-        temp= Math.floor(temp/2);
+//     let Decimal = 8;
+//     let arr = [];
+//     let temp= Decimal;
+//     for (let i = 0; i <= Decimal; i++) {
+//         if (temp==1 || Decimal==1) {
+//             arr[i]=1;
+//             break;
+//         }
+//         arr[i] = temp % 2;
+//         temp= Math.floor(temp/2);
         
-    }
-    arr.reverse();
-    console.log(arr);   
+//     }
+//     arr.reverse();
+//     console.log(arr);   
 
-}
+// }
 
 // // 32)JavaScript Program to Find ASCII Value of Character
 // // 33)JavaScript Program to Check Whether a String is Palindrome or Not
