@@ -719,15 +719,20 @@
 
     console.log("JavaScript Program to Convert Decimal to Binary\n\n");
 
-    let Decimal = 4;
-    let arr = [1];
-
-    for (let i = 0; 1 <= Decimal; i++) {
-        arr[i] = Decimal % 2;
-
+    let Decimal = 8;
+    let arr = [];
+    let temp= Decimal;
+    for (let i = 0; i <= Decimal; i++) {
+        if (temp==1 || Decimal==1) {
+            arr[i]=1;
+            break;
+        }
+        arr[i] = temp % 2;
+        temp= Math.floor(temp/2);
+        
     }
-    console.log(arr);
-
+    arr.reverse();
+    console.log(arr);   
 
 }
 
