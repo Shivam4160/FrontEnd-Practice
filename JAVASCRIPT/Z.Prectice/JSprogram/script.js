@@ -736,9 +736,82 @@
 
 // }
 
+
+
+
+
+
+
+
+
+
+
 // // 32)JavaScript Program to Find ASCII Value of Character
+
+// {
+
+//     let char = prompt("Enter one character(only first char will be valied)");
+
+//     console.log(char.charCodeAt(0));
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
 // // 33)JavaScript Program to Check Whether a String is Palindrome or Not
+
+// {
+
+//     let string = "level";
+//     let palindrome = true;
+
+//     for (char in string){
+//         if (string[char]!=string[string.length - 1 - char]){
+//             palindrome=false
+//         }
+//     }
+//     console.log(palindrome);
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
 // // 34)JavaScript Program to Sort Words in Alphabetical Order
+
+{
+
+    let arr = ["rahul" , "aman" , "munna" , "dony" , "Nitesh" , "Abhishek"]
+    arr.sort();
+    console.log(arr);
+    
+}
+
+
+
+
+
+
+
+    
+
 // // 35)JavaScript Program to Replace Characters of a String
 // // 36)JavaScript Program to Reverse a String
 // // 37)JavaScript Program to Create Objects in Different Ways
