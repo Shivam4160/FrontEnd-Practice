@@ -1,0 +1,10 @@
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+
+.component{
+    width: 100px;
+    height: 100px;
+}
