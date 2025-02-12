@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* .animate {
+        height: 200px;
+        width: 200px;
+        background-color: red;
+        position: absolute;
+      }
+      .box {
+        height: 300px;
+        width: 300px;
+        background-color: purple;
+        border: 5px solid black;
+      } */
+
+      .parentDiv{
+        height: 600px;
+        width: 600px;
+        background-color: white;
+        border:2px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .parentUl{
+        height: 500px;
+        width: 500px;
+        background-color: white;
+        border:2px solid black;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 0;
+      }
+      .parentUl li{
+        height: 200px;
+        width: 200px;
+        background-color: white;
+        border:2px solid black;
+        list-style-type: none;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+      .parentUl li b{
+        height: 70px;
+        width: 70px;
+        background-color: white;
+        border:2px solid black;
+        display: inline-block;
+      }
+      .parentUl li span{
+        height: 70px;
+        width: 70px;
+        background-color: white;
+        border:2px solid black;
+        display: inline-block;
+      }
+      .parentUl li i{
+        height: 70px;
+        width: 70px;
+        background-color: white;
+        border:2px solid black;
+        display: inline-block;
+      }
+
+    </style>
+  </head>
+  <body>
+    <!-- jQuery Animate -->
+    <!-- <button class="btn">click</button>
+
+    <div class="animate"></div> -->
+
+    <!-- jQuery addClass / RemoveClass / ToggleClass Method -->
+    <!-- <button id="addClass">addClass</button>
+    <button id="removeClass">removeClass</button>
+    <button id="toggleClass">toggleClass</button>
+    <div id="demo"></div> -->
+
+    <!-- jQuery Traversing -->
+
+    <div class="parentDiv">
+        <ul class="parentUl">
+            <li class="child-1">
+                <b>This is b tag</b>
+                <span>This is span tag</span>
+            </li>
+            <li class="child-2">
+                <span>This is span tag</span>
+                <i>This is i tag</i>
+            </li>
+        </ul>
+    </div>
+
+    <script src="jQuery.js"></script>
+    <script src="java.js"></script>
+  </body>
+</html>
